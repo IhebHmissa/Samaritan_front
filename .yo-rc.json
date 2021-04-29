@@ -1,0 +1,60 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "clientFramework": "angularX",
+    "serverPort": "8082",
+    "serviceDiscoveryType": "eureka",
+    "skipUserManagement": true,
+    "withAdminUi": true,
+    "baseName": "samaritan",
+    "buildTool": "maven",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en", "es"],
+    "messageBroker": false,
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "skipClient": false,
+    "testFrameworks": [],
+    "websocket": false,
+    "applicationType": "monolith",
+    "packageName": "com.samaritan.app",
+    "packageFolder": "com/samaritan/app",
+    "nativeLanguage": "en",
+    "jhipsterVersion": "7.0.1",
+    "skipServer": false,
+    "clientPackageManager": "npm",
+    "dtoSuffix": "DTO",
+    "entitySuffix": "",
+    "reactive": false,
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "entities": ["Request", "ReclRep", "Notification", "HistoryLine"],
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "blueprints": [
+      {
+        "name": "generator-jhipster-react-native",
+        "version": "4.1.1"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "generator-jhipster-react-native",
+        "version": "4.1.1"
+      }
+    ],
+    "pages": [],
+    "creationTimestamp": 1619730274227,
+    "reactNative": {
+      "reactNativeAppName": "samaritan",
+      "detox": true
+    },
+    "lastLiquibaseTimestamp": 1619730514000
+  }
+}
